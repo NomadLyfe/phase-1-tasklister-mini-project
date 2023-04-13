@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.querySelector('#create-task-form')
+  const form = document.querySelector('#create-task-form');
   form.addEventListener('submit', function(e) {
     e.preventDefault();
     const newLi = document.createElement('li');
@@ -31,8 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (newLi.style.backgroundColor === '') {
       document.querySelector('#tasks').appendChild(newLi);
     }
-    btn.addEventListener('click', (e) => e.target.parentNode.remove())
-    
+    btn.addEventListener('click', (e) => e.target.parentNode.remove());
     form.reset();
   })
 });
