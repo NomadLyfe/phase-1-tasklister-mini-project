@@ -2,6 +2,7 @@ html {
   height: 100%;
   width: 100%;
   font-family: "Titillium Web", sans-serif;
+  overflow: hidden;
 }
 
 body {
@@ -34,4 +35,16 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+.tasks {
+  margin: 0px;
+}
+
+#highTasks {
+  margin-top: 16px;
+}
+
+#tasks {
+  margin-bottom: 16px;
 }
